@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    background-color: black;
+    border-bottom: 3px solid #32b9cd ;
+
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 15px;
+
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e3b062;
+    width: 400px;
+    
+}
+.navbar a{
+    color: #e3b062;
+    text-decoration: none;
+}
+.agora a{
+    color: white;
+    font-weight: bold;
+}
+.titulo{
+    color: #32b9cd;
+}
+
+
+.banner{
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    height: 400px;
+}
+.banner .container {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.banner .container span{
+    font-weight: bold;
+
+}
+.banner .container p{
+    color: white;
+    width: 150px;
+    font-size: 25px;
+}
+
+.login{
+    height: 82vh;
+    padding: 0px;
+    margin: 0px;
+}
+.cadastro{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+.login .container{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-login{
+       width: 550px;
+       background-color: rgb(237, 236, 233);
+       border-radius: 8px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       gap: 20px;
+       padding: 30px 70px 30px 70px;
+      
+}
+.card-login .formulario{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       gap: 20px;
+       width: 100%;
+}
+
+.card-login .formulario .campo{
+       display: flex;
+       justify-content: center;
+       align-items:flex-start;
+       flex-direction: column;
+       font-weight: bolder;
+       width: 100%;
+       color: rgb(232, 85, 175);
+}
+
+.cadastro .container{
+ 
+    margin: 0px;
+    height: 100%;
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-cadastro{
+       width: 550px;
+       background-color: rgb(237, 236, 233);
+       border-radius: 8px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       gap: 20px;
+       padding: 30px 70px 30px 70px;
+      
+}
+.card-cadastro .formulario{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       gap: 20px;
+       width: 100%;
+}
+
+.card-cadastro .formulario .campo{
+       display: flex;
+       justify-content: center;
+       align-items:flex-start;
+       flex-direction: column;
+       font-weight: bolder;
+       width: 100%;
+       color: rgb(232, 85, 175);
+}
+.campo input{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 40px;
+       background-color: white;
+       border: 3px solid rgba(52, 153, 226, 0.688);
+       border-radius: 10px;
+}
+.card-login button{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 160px;
+       height: 40px;
+       background-color: rgb(222, 1, 93);
+       border: none;
+       border-radius: 10px;
+       color: white;
+       font-size: 20px;
+       font-weight: bold;
+}
+.card-cadastro button{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 160px;
+       height: 40px;
+       background-color: rgb(222, 1, 93);
+       border: none;
+       border-radius: 10px;
+       color: white;
+       font-size: 20px;
+       font-weight: bold;
+}
+.campo input::placeholder{
+       text-align: center;
+       font-size: 16px;
+       color: rgb(154, 154, 154);
+}
+
+
+.card-login h2{
+       color: rgb(232, 85, 175);
+       font-size: xx-large;
+}
+
+
+.card-cadastro h2{
+       color: rgb(232, 85, 175);
+       font-size: xx-large;
+}
+
+
+.social 
+{
+    height: 400px;
+    width: 100%;
+    background-color: azure;
+}
+.social .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.boxes {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    flex-direction: column;
+}
+.box img{
+    height: 40%;
+    width: 40%;
+}
+.box h4{
+    color: blueviolet;
+}
+
+.footer{
+    background-color: #32b9cd;
+
+}
+.footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    padding: 50px 0 ;
+
+}
